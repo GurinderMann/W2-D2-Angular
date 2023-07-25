@@ -1,0 +1,21 @@
+ul{
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-between;
+  margin: auto;
+  li{
+    font-size: 1.6em;
+    a{
+      text-decoration: none;
+      color: royalblue;
+    }
+}
+}
+
+.router{
+  display: flex;
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+}
