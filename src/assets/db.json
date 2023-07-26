@@ -3,24 +3,28 @@
     "id": 1,
     "title": "Mario",
     "content": "Contenuto del primo post...",
-    "active": true
+    "active": true,
+    "type":"News"
   },
   {
     "id": 2,
     "title": "Secondo Post",
     "content": "Contenuto del secondo post...",
-    "active": false
+    "active": false,
+    "type":"Education"
   },
   {
     "id": 3,
     "title": "Terzo Post",
     "content": "Contenuto del terzo post...",
-    "active": true
+    "active": true,
+    "type":"Politics"
   },
   {
     "id": 4,
     "title": "Qaurto Post",
     "content": "Contenuto del quarto post...",
-    "active": false
+    "active": false,
+    "type":"Education"
   }
 ]
