@@ -4,27 +4,35 @@
     "title": "Mario",
     "content": "Contenuto del primo post...",
     "active": true,
-    "type":"News"
+    "type":"News",
+    "author":"Mario",
+    "img":"https://picsum.photos/200/300?random=1"
   },
   {
     "id": 2,
     "title": "Secondo Post",
     "content": "Contenuto del secondo post...",
     "active": false,
-    "type":"Education"
+    "type":"Education",
+    "author":"Sara",
+    "img":"https://picsum.photos/200/300?random=2"
   },
   {
     "id": 3,
     "title": "Terzo Post",
     "content": "Contenuto del terzo post...",
     "active": true,
-    "type":"Politics"
+    "type":"Politics",
+    "author":"Giuseppe",
+    "img":"https://picsum.photos/200/300?random=3"
   },
   {
     "id": 4,
     "title": "Qaurto Post",
     "content": "Contenuto del quarto post...",
     "active": false,
-    "type":"Education"
+    "type":"Education",
+    "author":"Carlo",
+    "img":"https://picsum.photos/200/300?random=4"
   }
 ]

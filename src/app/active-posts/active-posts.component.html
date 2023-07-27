@@ -1,12 +1,19 @@
 <div class="container">
   <h2>Post Attivi</h2>
   <div class="row">
-    <div class="col-md-4" *ngFor="let post of activePosts">
-      <div class="card mb-3">
+    <div class="col" *ngFor="let post of activePosts">
+      <div class="card">
+        <img src="{{ post.img }}" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">{{ post.title }}</h5>
-          <p class="card-text">{{ post.content }}</p>
-          <p class="card-text">{{ post.type }}</p>
+          <h5 class="card-title">{{ post.title | upper }}</h5>
+          <p class="card-text">
+            {{ post.content }}
+            <br />
+            {{ post.type }}
+            <br />
+            <b appHighlight>{{ post.author }}</b>
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     </div>
